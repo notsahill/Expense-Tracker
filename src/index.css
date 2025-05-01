@@ -1,0 +1,53 @@
+/* Ant Design Reset (v5) */
+@import 'antd/dist/reset.css';
+
+/* Base dark mode styles */
+body {
+  background-color: #141414;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ant Design components dark adjustments */
+.ant-layout {
+  background: #141414;
+}
+
+.ant-layout-header,
+.ant-layout-footer,
+.ant-layout-sider {
+  background: #1f1f1f;
+  color: #fff;
+}
+
+.ant-card {
+  background: #1f1f1f;
+  color: #fff;
+}
+
+.ant-input,
+.ant-select,
+.ant-picker,
+.ant-btn {
+  background-color: #1f1f1f;
+  color: #fff;
+  border-color: #434343;
+}
+
+.ant-input::placeholder,
+.ant-select-selection-placeholder,
+.ant-picker-input > input::placeholder {
+  color: #8c8c8c !important;
+}
+
+.ant-btn-primary {
+  background-color: #1677ff;
+  border-color: #1677ff;
+}
+
+.ant-btn-primary:hover {
+  background-color: #4096ff;
+  border-color: #4096ff;
+}

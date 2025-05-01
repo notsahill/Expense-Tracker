@@ -1,0 +1,17 @@
+#root {
+  padding: 4% 20% 0 20%;
+}
+
+/* For tablets and below */
+@media (max-width: 768px) {
+  #root {
+    padding: 4% 8% 0 8%;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  #root {
+    padding: 4% 4% 0 4%;
+  }
+}
